@@ -7,7 +7,6 @@ const startGame = confirm('Сыграем в игру?');
 
 const game = function() {
   const randomNumber = Math.floor((Math.random() * 100) + 1);
-  console.log(randomNumber);
   function repeat() {
     let customNumber = prompt('Введите число от 1 до 100!');
     if (isNumber(customNumber)) {
